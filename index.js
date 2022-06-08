@@ -1,5 +1,5 @@
 // Code your solutions in this file
-const names = ["Sam", "Don", "Ken"];
+const names = ["Guadalupe", "Ollie", "Aki"]
 
   function writeCards(names) {
     for (let i = 0; i < names.length; i++) {
@@ -10,9 +10,4 @@ const names = ["Sam", "Don", "Ken"];
     return names;
   }
   
-  writeCards(gifts);
-
-let countdown = 10;
-while (countdown > 0) {
-  console.log(countdowm--);
-}
+  writeCards(names);
